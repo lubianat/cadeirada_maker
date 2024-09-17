@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadeirada Maker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile friendly -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Cadeirada Maker</h1>
+
+    <div class="container">
+        <div class="inputs">
+            <div class="input-group">
+                <label for="topLeftText">Top Left Text:</label>
+                <input type="text" id="topLeftText" placeholder="Enter top-left text">
+            </div>
+
+            <div class="input-group">
+                <label for="middleText">Middle Text:</label>
+                <input type="text" id="middleText" placeholder="Enter middle text">
+            </div>
+
+            <div class="input-group">
+                <label for="bottomRightText">Bottom Right Text:</label>
+                <input type="text" id="bottomRightText" placeholder="Enter bottom-right text">
+            </div>
+
+            <button id="download-btn">Download Meme</button>
+        </div>
+
+        <div class="canvas-container">
+            <canvas id="meme-canvas"></canvas>
+        </div>
+    </div>
+
+    <!-- Discrete note linking to GitHub repo -->
+    <footer>
+        <p><small><a href="https://github.com/lubianat/cadeirada_maker" target="_blank">GitHub Repository:
+                    lubianat/cadeirada_maker</a></small></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
